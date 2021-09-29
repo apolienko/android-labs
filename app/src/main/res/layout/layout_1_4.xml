@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="It is checkbox!"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:textColor="@color/white"
+        android:background="@color/black"
+         />
+
+    <RadioButton
+        android:id="@+id/radio_button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="It is radiobutton!"
+        android:background="#a2a2d0"
+        />
+
+</LinearLayout>
